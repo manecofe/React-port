@@ -6,7 +6,7 @@ import Login from "../pages/login";
 export default function MainRouter() {
   return (
     <Routes>
-      <Route path="/">
+      <Route path="/React-port/">
         <Route index element={<Home />} />
         <Route path="dashboard" element={<Dashboard />} />
         <Route path="Login" element={<Login />} />
